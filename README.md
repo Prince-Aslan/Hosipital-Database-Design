@@ -1,8 +1,8 @@
 # Hospital Database Project
-Welcome to the Hospital Database Project! This project focuses on SQL and database fundamentals through hands-on experience creating a database structure for a hypothetical hospital. You’ll model a database using an ERD and bring it to life by creating tables and defining relationships. This README provides a clear guide to the project's structure, requirements, and submission process.
+Welcome to the Hospital Database Project! This project focuses on SQL and database fundamentals through hands-on experience creating a database structure for a hypothetical hospital. I modelled a database using an ERD and then brought it to life by creating tables and defining relationships. This README provides a clear guide to the project's structure, requirements, process.
 
 ## Project Overview
-The goal of this project is to gain practical experience with SQL and database concepts by:
+The goal of this project was to practice SQL and database concepts by:
 
 1. Understanding the applications of SQL, especially for web development.
 2. Learning about essential database components: tables, columns, data types, and primary/foreign keys.
@@ -23,7 +23,7 @@ By completing this project, yI have been able to:
 4. MySQL Workbench for executing SQL queries
   
 ## Part 1: Database Modelling
-Using a software of choice eg. draw.io, lucid chart etc, draw a well defined Entity Relationship Diagram (ERD) of the database whose fields are outlined below. Once you are done export or download the diagram in pdf format and upload it on the repository or you can copy and paste it to the cloned repository before you push the changes
+Using a software of choice eg. draw.io, lucid chart etc, I drew a well defined Entity Relationship Diagram (ERD) of the database whose fields are outlined below. After which I exported or downloaded the diagram in pdf format.
 
 <br/><br/>
 **Table Name:** patients
@@ -101,12 +101,12 @@ Using a software of choice eg. draw.io, lucid chart etc, draw a well defined Ent
 
 <br/><br/>
 ## Part 2: Creating a database
-Now that you have already created a model of your database, it is time to bring it start building on it. Create database named ```hospital_db```.
+After I created a model of the database, I built it using SQL. Created database named ```hospital_db```.
 
 <br/><br/>
 ## Part 3: Creating Tables
-After creating your your database the next step is creating your tables, but before we start making any changes to the database, we need to make sure it is selected. Select the database using the ```USE``` keyword.<br/>
-After selecting the databse proceed to create the tables using the information provided in the tables above. For Example
+After creating the database the next step was creating the tables, but before I started making any changes to the database, I needed to make sure it was selected. I selected the database using the ```USE``` keyword.<br/>
+After selecting the database, I proceeded to creating the tables using the information provided in the tables above. For Example (see blow)
 ```sql
 CREATE TABLE patients(
     patient_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -118,6 +118,7 @@ CREATE TABLE patients(
 );
 ```
 
+All queries for the database and tables creation are saved in the `answers.sql file`
 <br/><br/>
 
 
