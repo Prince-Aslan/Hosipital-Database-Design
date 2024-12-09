@@ -106,7 +106,7 @@ After I created a model of the database, I built it using SQL. Created database 
 <br/><br/>
 ## Part 3: Creating Tables
 After creating the database the next step was creating the tables, but before I started making any changes to the database, I needed to make sure it was selected. I selected the database using the ```USE``` keyword.<br/>
-After selecting the database, I proceeded to creating the tables using the information provided in the tables above. For Example (see blow)
+After selecting the database, I proceeded to creating the tables using the information provided in the tables above. For Example (see below)
 ```sql
 CREATE TABLE patients(
     patient_id INT PRIMARY KEY AUTO_INCREMENT,
